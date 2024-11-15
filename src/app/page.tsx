@@ -10,7 +10,7 @@ export default function Home() {
   const handleChatClick = async () => {
     try {
       setLoading(true);
-      const res = await fetch('http://localhost:8000/chat', {
+      const res = await fetch('https://backend-webapp-pe-baeggaamd0btdmej.eastus-01.azurewebsites.net/chat', {
         method: 'GET',
       });
 
